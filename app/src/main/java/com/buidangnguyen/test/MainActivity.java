@@ -8,6 +8,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.buidangnguyen.test.R;
 
 public class MainActivity extends AppCompatActivity {
+    //helo babi
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
