@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp">
+
+        <!-- Banner -->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:src="@drawable/advertise_banner"
+            android:scaleType="centerCrop" />
+
+        <!-- Category -->
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="3"
+            android:layout_marginTop="16dp">
+
+            <LinearLayout android:id="@+id/lunchBox"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="8dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1">
+                <ImageView
+                    android:src="@drawable/lunch_box_icon"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/noodle"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="8dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1">
+                <ImageView
+                    android:src="@drawable/noodle_icon"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/milkTea"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="8dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1">
+                <ImageView
+                    android:src="@drawable/milk_tea_icon"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/snack"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="8dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1">
+                <ImageView
+                    android:src="@drawable/snack_icon"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/korean"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="8dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1">
+                <ImageView
+                    android:src="@drawable/korean_icon"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/healthy"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="8dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1">
+                <ImageView
+                    android:src="@drawable/healthy_icon"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp" />
+            </LinearLayout>
+        </GridLayout>
+
+        <!-- BAEMIN STUDIO Banner -->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="20dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/baemin_studio_banner" />
+
+        <!-- Promo buttons -->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/momo_service" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/zalopay_service" />
+        </LinearLayout>
+
+        <!-- Mini promo section -->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:src="@drawable/tocotoco_promo" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:src="@drawable/share_tea_promo" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:src="@drawable/comebuy_promo" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:src="@drawable/chaosuon_promo" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <ImageView
+        android:id="@+id/imgDialog"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/chaosuon_promo"/>
+
+    <TextView
+        android:id="@+id/txtDialogName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cháo sườn"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_marginTop="14dp" />
+
+    <TextView
+        android:id="@+id/txtDialogRating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="⭐ 4.5"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#FFA000" />
+
+    <TextView
+        android:id="@+id/txtDialogAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Địa chỉ nhà hàng"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_marginTop="6dp" />
+</LinearLayout>
